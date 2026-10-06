@@ -115,3 +115,16 @@ As we expect, numpy has better results
 
  
 With NumPy, the multiplication is one operator. Most of the Python code is for reading user input. In Java, every loop, index and check must be written by hand.
+
+
+## Chatgpt usage
+
+For this task, I have used Chatgpt for only Java part since for Python part it is not important to overthink about matrix multiplication. For Java, it was good for giving advices about unit test design and suggesting faster ways of writing code.
+
+1) It was good for giving suggestion for implementing Unit tests design
+2) It was good for suggesting optimal and faster ways of writing
+
+Link for full conversation:
+
+https://chatgpt.com/share/6ac53316-7a98-83eb-b8e8-cd0633dfc58a
+

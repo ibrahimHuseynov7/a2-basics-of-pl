@@ -46,3 +46,27 @@ Java has no slicing syntax. We had to write our own `slice` method that:
 
 Every slice that takes one line in Python needs a call to this method in Java, with the start, stop and step written out for both rows and columns.
 
+## Chatgpt usage
+
+For slicing and working with images, I have asked chatgpt to implement some parts and also I have given chatgpt to solve whole solution again. I have chosen chatgpt suggestions + my own approaches since it did not consider image sizes and etc.
+
+Advantages of partial code:
+1) Helped to implement slicing and image processing in Java in efficient way
+2) I have taken that parts and added to my code
+
+Disadvantages of full code:
+1) Does not consider image sizes that i have creates from own 
+2) Uses advanced expression which makes code harder to understand
+3) I have seen C++ solution and seen that it will be not optimal for Java also
+
+Link for partial code suggestion:
+
+https://chatgpt.com/share/6ac52c13-3b78-83ed-8c98-856434243e71
+
+Link for asking doing whole task:
+
+https://chatgpt.com/share/6ac53252-da1c-83ed-a083-70b881bb83ac
+
+
+
+

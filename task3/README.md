@@ -105,3 +105,13 @@ Random N×N matrices in my MacBook 13 M1 CPU
 | 1024 | 2212 ms  | 348 ms | 36.9 ms |
 
 As we expect, numpy has better results
+
+### Code size
+ 
+| Part | Python| Java |
+|---|---|---|
+| Multiplication itself | **1 line** (`A @ B`), 3 with the size check | ~15 lines per version (3 nested loops) + 12 lines `isValid` |
+| Whole program (multiply + input + output + benchmark) | 178 lines | 262 lines |
+
+ 
+With NumPy, the multiplication is one operator. Most of the Python code is for reading user input. In Java, every loop, index and check must be written by hand.
